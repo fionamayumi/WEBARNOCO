@@ -1,0 +1,98 @@
+@font-face {
+    font-family: coloni;
+    src: url(Coloni\ PERSONAL\ USE\ ONLY!.ttf);
+}
+@font-face {
+    font-family:louis;
+    src: url(Louis\ George\ Cafe\ Light.ttf);
+}
+@font-face {
+    font-family: bodar;
+    src: url(BODAR.ttf);
+}
+
+nav{
+    margin-right: 4%;
+    margin-left: 4%;
+    margin-top:0%;
+    padding-top: 0%;
+    font-family: stretchpro;
+    font-size: 100%;
+}
+
+body{
+    background-image: linear-gradient(rgb(0, 0, 0),rgb(32, 32, 32));    
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 0%;
+    color: rgb(247, 247, 247);
+    font-size: 45px;
+    font-family: coloni;
+    font-weight: lighter;
+}
+h4{
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    color: rgb(212, 50, 182);
+    font-size: 600%;
+    font-weight: lighter;
+    font-family: bodar;
+}
+h5{
+    font-family: coloni;
+    font-weight: lighter;
+}
+.text{
+    color: rgb(212, 50, 182);
+    box-shadow: 0px 40px 30px -40px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+p{
+    text-align: center;
+    color: white;
+    font-size:18px;
+    font-family: louis;
+    font-weight: 50;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    margin-bottom: 80px;  
+   
+}
+button{
+    color: white;
+    background-color: none;
+}
+@media (max-width:500px){
+    nav{
+        font-size: 10px;
+    }
+    h4{
+        font-size: 30px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    h3{
+        font-size: 25px;
+    }
+    p{
+        font-size: 14px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .container{
+        margin-top: 60px;
+    margin-bottom: 40px; 
+    margin-left: 0px;
+    }
+    .contactme{
+        size: 100px;
+    }
+}
